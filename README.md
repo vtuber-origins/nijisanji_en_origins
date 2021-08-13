@@ -28,6 +28,7 @@ The mods downloaded from the **Requirements** section are just pre-requisites. T
 
 ### Single Player
 * [Download latest zip file from releases](https://github.com/vtuber-origins/nijisanji_en_origins/releases)
+  * On the latest entry, click on **Assets** and click on **nijien_origins.zip**
 * Open Minecraft 1.17.1
 * Create new world
   * In the "Create New World" screen, click on the <kbd>Data Packs</kbd> button
@@ -40,5 +41,6 @@ The mods downloaded from the **Requirements** section are just pre-requisites. T
 
 ### Multi-Player Servers
 * [Download latest zip file from releases](https://github.com/vtuber-origins/nijisanji_en_origins/releases)
+  * On the latest entry, click on **Assets** and click on **nijien_origins.zip**
 * Connect to your server FTP
 * Upload the zip file into `/world/datapacks`

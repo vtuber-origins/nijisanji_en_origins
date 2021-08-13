@@ -1,34 +1,44 @@
-# Nijisanji EN Origins
+# NijiEN Origins
 
-## Rquirements
-* Fabric Loader or Fabric Server
-* Fabric API
-* Origin Mod
+## Requirements
+
+### Fabric MC
+* https://fabricmc.net/use
+* Run installer for "Client" 1.17.1
+* Your Minecraft launcher should now have a version named `fabric-loader-1.17.1`
+* Use this version to play the game
+
+### Fabric API
+* https://www.curseforge.com/minecraft/mc-mods/fabric-api/files
+* Download Fabric API for Game Version 1.17.1
+* Place `.jar` file into your Minecraft `/mods` folder
+  * `%appdata%\.minecraft\mods`
+
+### Origin Mod
+* https://www.curseforge.com/minecraft/mc-mods/origins/files
+* Download Origin Mod for Game Version 1.17.1
+* Place `.jar` file into your Minecraft `/mods` folder
+  * `%appdata%\.minecraft\mods`
 
 ----
 
 ## Installation
 
-### Single Player
-* Download latest zip file from releases
-* Go to `%appdata%\.minecraft\saves`
-* Go inside the world folder you want to install the datapack in
-* Go inside `\datapacks`
-* Create a folder `nijienorigin`
-* Extract files into this folder
+The mods downloaded from the **Requirements** section are just pre-requisites. To get the actual NijiEN-relevant origins, you still need to install this datapack.
 
-It is expected in the end to have:
-```
-%appdata%\.minecraft\saves\<worldName>\datapacks\nijienorigin\pack.mcmeta
-```
+### Single Player
+* [Download latest zip file from releases](https://github.com/vtuber-origins/nijisanji_en_origins/releases)
+* Open Minecraft 1.17.1
+* Create new world
+  * In the "Create New World" screen, click on the <kbd>Data Packs</kbd> button
+  * Drag the NijiEN Origins zip file into the game window
+    * (Alternatively, you can **Open Pack Folder** and copy it there)
+  * Enable the datapack by clicking on its icon
+    * It should move to the right side, under "**Selected**"
+  * Continue creating the world with your preferences
+* If it starts with an Origin Selection screen, then it works.
 
 ### Multi-Player Servers
-* Download latest zip file from releases
-* Extract contents to any preferred location in your computer
+* [Download latest zip file from releases](https://github.com/vtuber-origins/nijisanji_en_origins/releases)
 * Connect to your server FTP
-* Upload the files into `/world/datapacks/nijienorigin`
-
-It is expected in the end for the server to have:
-```
-/world/datapacks/nijienorigin/pack.mcmeta
-```
+* Upload the zip file into `/world/datapacks`

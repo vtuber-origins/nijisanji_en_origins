@@ -44,3 +44,16 @@ The mods downloaded from the **Requirements** section are just pre-requisites. T
   * On the latest entry, click on **Assets** and click on **nijien_origins.zip**
 * Connect to your server FTP
 * Upload the zip file into `/world/datapacks`
+
+----
+
+## FAQ
+
+### How do I use my primary skill?
+Primarty active powers are activated using the hotkey <kbd>G</kbd>. This can also be customized in your controls. 
+
+### How do I use active sub-skills like *Finana's Backpack* and *Petra's Snowballs*?
+You first need to assign a hotkey for your secondary skill on your **Controls Settings**.
+
+### I got an error "Invalid Player Data"
+This is a known issue with Origin Mod. You can just re-try entering the world again.

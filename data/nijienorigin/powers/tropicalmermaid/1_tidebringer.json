@@ -1,0 +1,33 @@
+{
+  "name": "Tidebringer",
+  "description": "With magic, Finana can surround herself with water, enabling her mermaid abilities anywhere.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:block_action_at",
+        "block_action": {
+          "type": "origins:execute_command",
+          "command": "fill ~5 ~3 ~5 ~-6 ~-2 ~-6 minecraft:water keep"
+        }
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "entity.dolphin.splash"
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:dimension",
+    "dimension": "minecraft:the_nether",
+    "inverted": true
+  },
+  "cooldown": 3600,
+  "hud_render": {
+    "bar_index": 1
+  },
+  "key": {
+    "key": "key.origins.primary_active"
+  }
+}

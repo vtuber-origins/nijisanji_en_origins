@@ -1,0 +1,10 @@
+{
+  "name": "Strong Hoodie",
+  "description": "Her hoodie gives additional innate armor points.",
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "generic.armor",
+    "value": 8,
+    "operation": "addition"
+  }
+}

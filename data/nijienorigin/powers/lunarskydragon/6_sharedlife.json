@@ -1,0 +1,11 @@
+{
+  "name": "Shared Life Force",
+  "description": "Having shared her life force with Ember, she now only has 7 hearts of health.",
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Max health increase",
+    "attribute": "minecraft:generic.max_health",
+    "value": -6,
+    "operation": "addition"
+  }
+}

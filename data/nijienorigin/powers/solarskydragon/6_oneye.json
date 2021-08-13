@@ -1,0 +1,12 @@
+{
+  "name": "One-eyed",
+  "description": "With her only being able see the right side, she has shorter hand reach.",
+  "type": "origins:attribute",
+  "modifiers": [
+    {
+      "attribute": "reach-entity-attributes:reach",
+      "value": -2,
+      "operation": "addition"
+    }
+  ]
+}

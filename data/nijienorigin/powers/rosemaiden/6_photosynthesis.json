@@ -1,0 +1,8 @@
+{
+  "name": "Photosynthesis",
+  "description": "Being a plant, she can not eat anything, but recovers hunger bar when under the sun.",
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:food"
+  }
+}

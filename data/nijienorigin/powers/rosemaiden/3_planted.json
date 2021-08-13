@@ -1,0 +1,10 @@
+{
+  "name": "Planted",
+  "description": "Being planted in the soil, she has immunity to knockback.",
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "generic.knockback_resistance",
+    "value": 1,
+    "operation": "addition"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Mermaid",
+  "description": "Finana can swim fast, break blocks, and breathe underwater.",
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:gain_air",
+    "value": 20
+  },
+  "interval": 20,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": ">",
+        "compare_to": 0
+      }
+    ]
+  }
+}

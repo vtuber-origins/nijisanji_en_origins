@@ -1,0 +1,24 @@
+{
+  "name": "Seagull",
+  "description": "Every 60 seconds, dolphin sounds come out of her.",
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:slowness",
+          "duration": 10,
+          "amplifier": 1
+        }
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "entity.dolphin.play",
+        "pitch": 0.6
+      }
+    ]
+  },
+  "interval": 1200
+}

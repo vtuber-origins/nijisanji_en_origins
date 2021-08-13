@@ -1,0 +1,9 @@
+{
+  "name": "Daytime Wings",
+  "description": "The power of the sun only lets her fly during the day.",
+  "type": "origins:elytra_flight",
+  "render_elytra": false,
+  "condition": {
+    "type": "origins:daytime"
+  }
+}

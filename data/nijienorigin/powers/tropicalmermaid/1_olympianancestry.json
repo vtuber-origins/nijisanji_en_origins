@@ -1,0 +1,12 @@
+{
+  "name": "Olympian Ancestry",
+  "description": "Finana can throw tridents, charged with lightning, upon her enemies",
+  "type": "origins:fire_projectile",
+  "entity_type": "minecraft:trident",
+  "cooldown": 600,
+  "sound": "entity.lightning_bolt.thunder",
+  "tag": "{pickup:0,life:1198}",
+  "hud_render": {
+    "bar_index": 2
+  }
+}

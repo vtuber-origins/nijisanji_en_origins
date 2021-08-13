@@ -1,0 +1,17 @@
+{
+  "name": "Rose Maiden",
+  "description": "A rose maiden raised in a beautiful garden. Pretty as a rose in a vase, but a little sharp to the touch. (scroll down for more info)",
+  "icon": "minecraft:rose_bush",
+  "powers": [
+    "nijienorigin:rosemaiden/1_rosefield",
+    "nijienorigin:rosemaiden/2_imaflower",
+    "nijienorigin:rosemaiden/3_planted",
+    "nijienorigin:rosemaiden/4_brosemi",
+    "nijienorigin:rosemaiden/6_photosynthesis",
+    "nijienorigin:rosemaiden/7_seagull",
+    "nijienorigin:rosemaiden/11_photosynthesis",
+    "origins:strong_arms_break_speed"
+  ],
+  "order": 5,
+  "impact": 3
+}

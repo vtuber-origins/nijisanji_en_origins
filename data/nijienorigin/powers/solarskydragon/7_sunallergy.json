@@ -1,0 +1,22 @@
+{
+  "name": "Sun Allergy",
+  "description": "Every 60 seconds, and under the sun, she sneezes.",
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:add_velocity",
+        "y": 0.5
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.panda.sneeze"
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:exposed_to_sun"
+  },
+  "interval": 1200
+}

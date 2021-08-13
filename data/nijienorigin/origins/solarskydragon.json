@@ -1,0 +1,15 @@
+{
+  "name": "Solar Sky Dragon",
+  "description": "A sky dragon who came from the heavens closest to the sun. She has the kindness and receptiveness that makes the light of a sunny day fall equally on all. (scroll down for more info)",
+  "icon": "minecraft:feather",
+  "powers": [
+    "nijienorigin:solarskydragon/1_fireball",
+    "nijienorigin:solarskydragon/2_fly_day",
+    "nijienorigin:solarskydragon/3_immunefire",
+    "nijienorigin:solarskydragon/4_endurance",
+    "nijienorigin:solarskydragon/6_oneye",
+    "nijienorigin:solarskydragon/7_sunallergy"
+  ],
+  "order": 1,
+  "impact": 3
+}

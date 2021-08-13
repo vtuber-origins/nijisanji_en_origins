@@ -1,0 +1,13 @@
+{
+  "hidden": true,
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:feed",
+    "food": 1,
+    "saturation": 0.3
+  },
+  "interval": 100,
+  "condition": {
+    "type": "origins:exposed_to_sun"
+  }
+}

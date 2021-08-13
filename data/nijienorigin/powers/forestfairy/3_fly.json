@@ -1,0 +1,12 @@
+{
+  "name": "Hi, I'm Pomu!",
+  "description": "She can fly when in forests.",
+  "type": "origins:creative_flight",
+  "condition": {
+    "type": "origins:biome",
+    "condition": {
+      "type": "origins:category",
+      "category": "forest"
+    }
+  }
+}

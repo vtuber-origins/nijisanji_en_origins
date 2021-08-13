@@ -1,0 +1,16 @@
+{
+  "name": "Homeland",
+  "description": "She appears green and spectral when in forests.",
+  "type": "origins:model_color",
+  "red": 0.4,
+  "green": 1,
+  "blue": 0.4,
+  "alpha": 0.5,
+  "condition": {
+    "type": "origins:biome",
+    "condition": {
+      "type": "origins:category",
+      "category": "forest"
+    }
+  }
+}

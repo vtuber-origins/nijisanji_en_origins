@@ -1,0 +1,10 @@
+{
+  "name": "Nighttime Wings",
+  "description": "The power of the moon only lets her fly during the night.",
+  "type": "origins:elytra_flight",
+  "render_elytra": false,
+  "condition": {
+    "type": "origins:daytime",
+    "inverted": true
+  }
+}

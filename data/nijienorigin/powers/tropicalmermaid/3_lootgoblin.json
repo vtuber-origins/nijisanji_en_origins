@@ -1,0 +1,8 @@
+{
+  "name": "Loot Goblin",
+  "description": "Finana has an extra backpack to store all the loot.",
+  "type": "origins:inventory",
+  "key": {
+    "key": "key.origins.secondary_active"
+  }
+}

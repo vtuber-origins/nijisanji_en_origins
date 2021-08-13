@@ -1,0 +1,33 @@
+{
+  "name": "Untrained Legs",
+  "description": "Finana is slow on land unless holding water bucket on left hand.",
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "name": "Mermaid slow on land",
+    "attribute": "minecraft:generic.movement_speed",
+    "value": -0.03,
+    "operation": "addition"
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": "==",
+        "compare_to": 0
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "item": "minecraft:water_bucket"
+          }
+        },
+        "inverted": true
+      }
+    ]
+  }
+}

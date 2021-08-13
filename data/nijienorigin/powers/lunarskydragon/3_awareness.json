@@ -1,0 +1,8 @@
+{
+  "name": "Situational Awareness",
+  "description": "Nearby moving entities glow so she can see even through walls when sneaking.",
+  "type": "origins:entity_glow",
+  "condition": {
+    "type": "origins:sneaking"
+  }
+}

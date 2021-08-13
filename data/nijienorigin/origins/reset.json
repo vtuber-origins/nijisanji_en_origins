@@ -1,0 +1,9 @@
+{
+  "name": "RESET",
+  "icon": "minecraft:dirt",
+  "powers": [
+
+  ],
+  "order": 0,
+  "impact": 3
+}

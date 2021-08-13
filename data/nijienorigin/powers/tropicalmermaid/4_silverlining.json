@@ -1,0 +1,15 @@
+{
+  "name": "Silver Lining",
+  "description": "Being optimistic and ever smiling, she may find a diamond (40%) whenever she gets damaged.",
+  "type": "origins:self_action_when_hit",
+  "entity_action": {
+    "type": "origins:chance",
+    "action": {
+      "type": "origins:execute_command",
+      "command": "give @s minecraft:diamond 1",
+      "permission_level": 4
+    },
+    "chance": 0.4
+  },
+  "cooldown": 1200
+}

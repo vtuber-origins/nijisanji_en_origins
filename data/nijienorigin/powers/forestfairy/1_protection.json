@@ -1,0 +1,55 @@
+{
+  "name": "Nature's Protection",
+  "description": "When in dire situations, nature protects Pomu and surrounds her with leaves.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:block_action_at",
+        "block_action": {
+          "type": "origins:execute_command",
+          "command": "fill ~1 ~2 ~1 ~-1 ~-1 ~-1 minecraft:oak_leaves replace"
+        }
+      },
+      {
+        "type": "origins:block_action_at",
+        "block_action": {
+          "type": "origins:offset",
+          "action": {
+            "type": "origins:set_block",
+            "block": "minecraft:oak_wood"
+          },
+          "y": -1
+        }
+      },
+      {
+        "type": "origins:block_action_at",
+        "block_action": {
+          "type": "origins:set_block",
+          "block": "minecraft:air"
+        }
+      },
+      {
+        "type": "origins:block_action_at",
+        "block_action": {
+          "type": "origins:offset",
+          "action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+          },
+          "y": 1
+        }
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "block.roots.place"
+      }
+    ]
+  },
+  "cooldown": 1200,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+    "bar_index": 8
+  }
+}

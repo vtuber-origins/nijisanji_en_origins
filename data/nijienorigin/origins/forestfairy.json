@@ -1,0 +1,15 @@
+{
+  "name": "Forest Fairy",
+  "description": "A fairy who lived in a lush forest. Supple like a flower in the breeze, cheerful and optimistic. (scroll down for more info)",
+  "icon": "minecraft:oak_sapling",
+  "powers": [
+    "nijienorigin:forestfairy/1_protection",
+    "nijienorigin:forestfairy/2_crafting",
+    "nijienorigin:forestfairy/3_fly",
+    "nijienorigin:forestfairy/4_fall",
+    "nijienorigin:forestfairy/6_forestlaw",
+    "nijienorigin:forestfairy/7_homeland"
+  ],
+  "order": 2,
+  "impact": 3
+}

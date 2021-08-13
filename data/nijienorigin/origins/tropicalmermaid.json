@@ -1,0 +1,18 @@
+{
+  "name": "Tropical Mermaid",
+  "description": "A mermaid spending time with tropical fish in the sea of coral reefs. Has a heart as clear and pure as the calm and beautiful sea. (scroll down for more info)",
+  "icon": "minecraft:tropical_fish",
+  "powers": [
+    "nijienorigin:tropicalmermaid/1_olympianancestry",
+    "nijienorigin:tropicalmermaid/2_mermaid",
+    "nijienorigin:tropicalmermaid/3_lootgoblin",
+    "nijienorigin:tropicalmermaid/4_silverlining",
+    "nijienorigin:tropicalmermaid/6_slow",
+    "nijienorigin:tropicalmermaid/7_eggs",
+    "nijienorigin:tropicalmermaid/11_swimspeed",
+    "nijienorigin:tropicalmermaid/12_aquaaffinity",
+    "nijienorigin:tropicalmermaid/13_lightning"
+  ],
+  "order": 3,
+  "impact": 3
+}

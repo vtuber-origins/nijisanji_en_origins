@@ -1,0 +1,12 @@
+{
+  "name": "Fairy Wings",
+  "description": "She descends slowly and does not take fall damage, as long as she is not hungry.",
+  "type": "origins:modify_falling",
+  "velocity": 0.04,
+  "take_fall_damage": false,
+  "condition": {
+    "type": "origins:food_level",
+    "comparison": "==",
+    "compare_to": 20
+  }
+}

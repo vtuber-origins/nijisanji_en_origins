@@ -1,0 +1,15 @@
+{
+  "name": "Lunar Sky Dragon",
+  "description": "A sky dragon descended from the moon. She has a gentle heart hidden underneath her mischievous nature, like the glow of the moon on a cloudy night. (scroll down for more info)",
+  "icon": "minecraft:elytra",
+  "powers": [
+    "nijienorigin:lunarskydragon/1_dragonaspect",
+    "nijienorigin:lunarskydragon/2_fly_night",
+    "nijienorigin:lunarskydragon/3_awareness",
+    "nijienorigin:lunarskydragon/4_sidestep",
+    "nijienorigin:lunarskydragon/6_sharedlife",
+    "nijienorigin:lunarskydragon/7_fullmoon"
+  ],
+  "order": 4,
+  "impact": 3
+}

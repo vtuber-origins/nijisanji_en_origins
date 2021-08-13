@@ -1,0 +1,10 @@
+{
+  "name": "Brosemi",
+  "description": "Brosemi can harvest stone just using her hands, and even faster at it.",
+  "type": "origins:modify_harvest",
+  "allow": true,
+  "block_condition": {
+    "type": "origins:in_tag",
+    "tag": "origins:natural_stone"
+  }
+}

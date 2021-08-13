@@ -1,0 +1,10 @@
+{
+  "name": "Solar Fireball",
+  "description": "Elira can summon balls of power that destroys the land and damages her enemies.",
+  "type": "origins:fire_projectile",
+  "entity_type": "minecraft:fireball",
+  "cooldown": 400,
+  "hud_render": {
+    "bar_index": 7
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Sidestep",
+  "description": "Every 10 seconds, she avoids from damage from mobs.",
+  "type": "origins:self_action_when_hit",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:heal",
+        "amount": 3
+      },
+      {
+        "type": "origins:add_velocity",
+        "space": "local",
+        "x": 2
+      }
+    ]
+  },
+  "damage_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:amount",
+        "comparison": ">=",
+        "compare_to": 3
+      },
+      {
+        "type": "origins:name",
+        "name": "mob"
+      }
+    ]
+  },
+  "cooldown": 200,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+    "bar_index": 2
+  }
+}

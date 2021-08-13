@@ -1,0 +1,18 @@
+{
+  "name": "Secret of the Trees",
+  "description": "With the knowledge of the forest, she can craft each log into 12 planks",
+  "type": "origins:recipe",
+  "recipe": {
+    "id": "nijienorigin:pomu_planks",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "tag": "minecraft:logs"
+      }
+    ],
+    "result": {
+      "item": "minecraft:oak_planks",
+      "count": 12
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Eggs",
+  "description": "Every 60 seconds, Finana lays eggs.",
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:give",
+        "stack": {
+          "item": "minecraft:egg",
+          "tag": "{display:{Name:'[{\"text\":\"Finana\\'s Egg\",\"italic\":false,\"color\":\"red\"}]',Lore:['[{\"text\":\"The legendary famed eggs\",\"italic\":false}]']}}"
+        }
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.chicken.egg"
+      }
+    ]
+  },
+  "interval": 1200
+}

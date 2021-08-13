@@ -1,0 +1,17 @@
+{
+  "name": "Snow Penguin",
+  "description": "A penguin who spent much time alone in the frosty sea. Like the waves during a storm, she is the bearer of both complexity and charm.",
+  "icon": "minecraft:snowball",
+  "powers": [
+    "nijienorigin:snowpenguin/1_pentomo",
+    "nijienorigin:snowpenguin/2_snowball",
+    "nijienorigin:snowpenguin/3_stronghoodie",
+    "nijienorigin:snowpenguin/4_proteccsmile",
+    "nijienorigin:snowpenguin/6_penguindiet",
+    "nijienorigin:snowpenguin/7_snowwalker",
+    "nijienorigin:snowpenguin/11_snowballdamage",
+    "origins:scare_creepers"
+  ],
+  "order": 6,
+  "impact": 3
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Endurance Streamer",
+  "description": "Her endurance grants her additional 5 hearts of health.",
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Max health increase",
+    "attribute": "minecraft:generic.max_health",
+    "value": 10,
+    "operation": "addition"
+  }
+}
